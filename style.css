@@ -1,0 +1,81 @@
+/* global variables, so I can modify colour easily in future) */
+:root {
+    --colorPop: rgb(45, 83, 83);
+    --colorBack: #aaabb1;
+    --colorImgBack: #efeff3;
+    --colorFont: rgb(7, 2, 2);
+    --colorLink: rgb(30, 88, 18);
+  }
+
+/* MAIN */
+#main {
+    background-color: var(--colorBack);
+    color: var(--colorFont);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1.0em;
+    max-width: 99%;
+}
+
+b, em {
+    color: var(--colorPop);
+    font-size: 110%;
+}
+
+
+#title, #timeline, #inline-head {
+    text-align: center;
+}
+
+img {
+    max-width: 95%;
+    display: block;
+    margin: auto;
+}
+
+#img-div {
+    background: var(--colorImgBack);
+    padding: 1em;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+p {
+    padding: 1.5em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+ul {
+    padding-left: 10em;
+    padding-bottom: 1.5em;
+    font-size: 1.2em;
+}
+
+#img-inline {
+    max-width: 95%;
+    display: flex;
+
+}
+
+#image-inline {
+    background: var(--colorImgBack);
+    padding: 1em;
+    max-width: 99%;
+    align-items: center;
+}
+
+#img-caption-inline {
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+a {
+    color: var(--colorLink);
+}
+
+a:hover {
+    font-size: 1.2em;
+}
