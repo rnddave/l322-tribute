@@ -1,3 +1,7 @@
+SEE THE PAGE BY >> <a href="https://rnddave.github.io/l322-tribute/">CLICKING HERE</a> <<
+
+CODEPEN >> https://codepen.io/rnddave/pen/KKyRYRR
+
 # l322-tribute
 tribute to the L322 Range Rover - HTML/CSS basics
 
